@@ -11,6 +11,7 @@ func main() {
 	ScannerExample()
 }
 
+
 func ScannerExample() {
 	//file, err := os.Create("chapter01/bufio/01.txt")
 	file, err := os.Open("chapter01/bufio/01.txt")
