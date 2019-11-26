@@ -1,9 +1,12 @@
 package main
 
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
-
+	LocationExample()
 }
 
 //时区
@@ -12,6 +15,5 @@ func LocationExample() {
 	if err != nil {
 		panic("出错了")
 	}
-	location
-
+	fmt.Println(location)
 }
