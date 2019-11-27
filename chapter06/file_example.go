@@ -37,7 +37,7 @@ func FileExample() {
 }
 
 func FileExample02() {
-	file, err := os.Create("chapter06/learn.txt")
+	file, err := os.Create("chapter06/learn.txt.1")
 	if err != nil {
 		log.Fatal(err)
 	}
